@@ -1,0 +1,58 @@
+@jng IMPORT
+ url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  background: black;
+}
+
+.post {
+  margin: 15% 41% 15% 41%;
+  background: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.post-header,
+.post-footer {
+  padding-inline: 18px;
+  padding-block: 18px;
+}
+
+.inline-elements {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 10px;
+  padding-top: 15px;
+}
+
+.inline-elements :last-child {
+  margin-left: auto;
+}
+
+.tags {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  gap: 3px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.title-line {
+  margin-top: 36px;
+}
+
+.emphasized-tags {
+  font-weight: bold;
+}
